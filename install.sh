@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker pull cestca/java17-mvn
+docker pull cestca/openjdk17-mvn
 
 cd $(dirname $0)
 chmod +x mvn.sh
