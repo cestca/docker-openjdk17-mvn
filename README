@@ -1,1 +1,0 @@
-Docker image for executing mvn command on Debian 11 with openjdk-17-jdk-headless and apache-maven-3.9.5
