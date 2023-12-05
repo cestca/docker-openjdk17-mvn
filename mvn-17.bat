@@ -1,0 +1,6 @@
+@echo off
+docker run --rm -it ^
+--name openjdk17-mvn ^
+-v .:/code ^
+-v ~/.m2-java17:/root/.m2 ^
+cestca/openjdk17-mvn %*
